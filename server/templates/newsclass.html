@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>智能文本分类系统</title>
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/news.css')}}" type="text/css" media="all">
+    <script src="{{url_for('static', filename='js/jquery-3.4.1.js')}}"></script>
+    <script src="{{url_for('static', filename='js/news.js')}}"></script>
+</head>
+<body>
+<form action="" method="post" class="basic-grey">
+    <h1>文本分类
+        <span>请将内容粘贴到下面的文本框中,选择分类方式,然后点击分类按钮进行预测</span>
+    </h1>
+
+    <label>
+        <span>分类内容:</span>
+        <textarea id="news_content" name="message" placeholder="将分类内容粘贴到这里"></textarea>
+    </label>
+    <label>
+        <span>分类方式:</span>
+        <select id="type" name="selection">
+            <option value="tfidf">TextCNN</option>
+            <option value="word2vec">TextLSTM</option>
+        </select>
+    </label>
+    <label>
+        <span>分类类别:</span>
+        <span id="newsclass"></span>
+    </label>
+    <label>
+        <span>&nbsp;</span>
+        <input id="predict" type="button" class="button" value="分类" />
+    </label>
+</form>
+</body>
+</html>

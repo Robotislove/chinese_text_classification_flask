@@ -1,0 +1,5 @@
+jieba==0.39
+numpy==1.15.1
+tensorflow==2.0
+scikit_learn==0.23.2
+python==3.8
