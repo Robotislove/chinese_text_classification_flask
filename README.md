@@ -10,7 +10,7 @@
 2020/07/19:LSTM model
 2020/07/20:preprocess代码优化
 
-2021/10/1：加入网页端
+2021/10/1：加入flask网页端
 
 
 ## 环境
@@ -19,6 +19,7 @@ Tensorflow.keras
 
 Python3  
 
+flask
 
 
 ## 数据集
