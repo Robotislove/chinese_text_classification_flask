@@ -59,5 +59,5 @@ main.py:主函数文件
 
 运行结果：
 
-![Alt text](E:\Temp\NLP\nlp\-Tensorflow-\img\11.png)
+![Alt text](.\img\11.png)
 
