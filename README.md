@@ -1,5 +1,6 @@
 # -Tensorflow-
-基于Tensorflow的中文文本分类可网页展示部署，基于别人的模型https://github.com/sun830910/Text_Classification加入了网页端。
+基于Tensorflow的中文文本分类可网页展示部署，基于开源项目https://github.com/sun830910/Text_Classification
+做了些修改，加入了网页端。
 
 # 中文文本分类
 
