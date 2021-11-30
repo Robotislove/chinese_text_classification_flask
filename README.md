@@ -59,5 +59,5 @@ main.py:主函数文件
 
 运行结果：
 
-![Alt text](..\img\11.png)
+![Alt text](https://github.com/Robotislove/Tensorflow/blob/bf880975dae5da5525212e3660909e04fba80061/img/11.png)
 
